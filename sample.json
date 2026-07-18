@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice.j@example.com",
+      "active": true,
+      "address": {
+        "street": "123 Maple Ave",
+        "city": "Springfield",
+        "zip": "62701"
+      },
+      "roles": ["admin", "editor"]
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob.smith@example.com",
+      "active": false,
+      "address": {
+        "street": "456 Oak Ln",
+        "city": "Shelbyville",
+        "zip": "62702"
+      },
+      "roles": ["viewer"]
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie.b@example.com",
+      "active": true,
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Capital City",
+        "zip": "62703"
+      },
+      "roles": ["editor", "viewer"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 101,
+      "userId": 1,
+      "title": "Complete project proposal",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "title": "Review pull requests",
+      "completed": true,
+      "priority": "medium"
+    },
+    {
+      "id": 103,
+      "userId": 1,
+      "title": "Update documentation",
+      "completed": false,
+      "priority": "low"
+    }
+  ]
+}   
