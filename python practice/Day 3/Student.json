@@ -1,0 +1,31 @@
+{
+  "Student": [
+    {
+      "name": "Dheeraj",
+      "roll no.": 1,
+      "marks": [
+        90,
+        99,
+        88
+      ]
+    },
+    {
+      "name": "ojas",
+      "roll no.": 2,
+      "marks": [
+        99,
+        88,
+        77
+      ]
+    },
+    {
+      "name": "pintu",
+      "roll no.": 3,
+      "marks": [
+        77,
+        66,
+        55
+      ]
+    }
+  ]
+}
